@@ -1,3 +1,4 @@
+# 菱形三十面体の展開図の作成プログラム
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon
@@ -60,4 +61,5 @@ def draw_row():
     plt.show()
 # --- メイン処理 ---
 if __name__ == "__main__":
+
     draw_row()
